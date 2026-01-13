@@ -36,6 +36,7 @@ body {
     "fo fo fo fo fo fo fo fo fo fo fo fo";
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: auto auto auto auto auto;
+  object-fit: cover;
 }
 .header {
   grid-area: h;
@@ -45,6 +46,8 @@ body {
   padding: 50px 228px;
   flex-direction: column;
   background-color: rgba(255, 144, 14, 10%);
+  width: 100%;
+  max-width: 1920px;
 }
 .nav {
   width: 100%;
@@ -97,12 +100,11 @@ body {
   cursor: pointer;
 }
 .header .header_image {
-  width: 100%;
-  max-width: 1440px;
   margin-top: 50px;
   margin-right: 12px;
 }
 .header .header_image img {
+  width: 100%;
   margin-right: 12px;
 }
 /* =========================================
