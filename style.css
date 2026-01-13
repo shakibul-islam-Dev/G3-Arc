@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.work-sans-common {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+/* Common class */
+.btn {
+  border: none;
+  padding: 20px 25px;
+  background-color: #ff900e;
+  border-radius: 8px;
+  margin-top: 32px;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+body {
+  display: grid;
+  grid-template-areas:
+    "h h h h h h h h h h h h"
+    "v v v v v v v v v v v v"
+    "f f f f f f f f f f f f"
+    "fa fa fa fa fa fa fa fa fa fa fa fa"
+    "fo fo fo fo fo fo fo fo fo fo fo fo";
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto auto auto auto;
+}
+.header {
+  grid-area: h;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 228px;
+  flex-direction: column;
+  background-color: rgba(255, 144, 14, 10%);
+}
+.nav {
+  width: 100%;
+  max-width: 1452px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .logo {
+  font-size: 2.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #131313;
+}
+.nav .nav-links {
+  width: 477px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav .nav-links li a {
+  font-size: 18px;
+  color: #424242;
+  line-height: 28px;
+  font-weight: 500;
+}
+.header .navtext {
+  margin-top: 116px;
+  width: 862px;
+  height: 225px;
+}
+.header .navtext h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #131313;
+}
+.header .navtext p {
+  margin-top: 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #727272;
+}
+.header .btn button {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #ff900e;
+  border: none;
+  cursor: pointer;
+}
+.header .header_image {
+  width: 100%;
+  max-width: 1440px;
+  margin-top: 50px;
+  margin-right: 12px;
+}
+.header .header_image img {
+  margin-right: 12px;
+}
+/* =========================================
+   3. RESPONSIVE QUERIES
+   ========================================= */
