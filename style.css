@@ -186,6 +186,75 @@ body {
   flex-direction: row;
   gap: 54px;
 }
+.lowr_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.lowr_visit .lowr_left .lowr-heading {
+  position: relative;
+}
+.lowr_left .lowr-heading .orange {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 5px;
+  height: 106px;
+  background-color: #ff900e;
+  border-radius: 2px;
+}
+
+.lowr_visit .lowr_left .lowr-heading h1 {
+  text-align: left;
+  font-size: 45px;
+  font-weight: bold;
+  color: #131313;
+  padding-left: 26px;
+  margin-bottom: 24px;
+  position: relative;
+}
+.lowr_visit .lowr_left .lowr-heading p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.lowr_visit .lowr_left .lowr-content {
+  padding: 30px;
+}
+.lowr_visit .lowr_left .lowr-content h3 {
+  margin-left: 3px;
+  margin-bottom: 9px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: #131313;
+}
+.lowr_visit .lowr_left .lowr-content p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.lowr_right {
+  position: relative;
+}
+.lowr_right button {
+  position: absolute;
+  bottom: -50px;
+  left: -30px;
+  padding: 46px 42px;
+  font-size: 65px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.lowr_right button span {
+  font-size: 25px;
+  line-height: 40px;
+}
 
 /* =========================================
    3. RESPONSIVE QUERIES
