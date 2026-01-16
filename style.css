@@ -255,7 +255,101 @@ body {
   font-size: 25px;
   line-height: 40px;
 }
-
+.facts {
+  grid-area: fa;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
+  padding: 85px 341px;
+}
+.facts .facts_header {
+  width: 100%;
+  max-width: 1400px;
+  padding-left: 20px;
+  margin-bottom: 90px;
+}
+.facts .facts_header h2 {
+  text-align: left;
+  font-size: 45px;
+  font-weight: bold;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.facts .facts_header p {
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.facts .facts-card {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.facts .facts-card .cards_item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+  height: 242px;
+  width: 242px;
+  padding: 46px 35px;
+  border: 1px solid rgba(255, 144, 14, 1);
+  border-radius: 8px;
+}
+.facts .facts-card .cards_item h3 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #131313;
+}
+.facts .facts-card .cards_item p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #727272;
+}
+.footer {
+  grid-area: fo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer .footer_header {
+  width: 542px;
+}
+.footer .footer_header h1 {
+  font-size: 45px;
+  color: #131313;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.footer .footer_header p {
+  font-size: 16px;
+  color: #727272;
+  line-height: 26px;
+}
+.footer .footer_content {
+  margin-top: 50px;
+  margin-bottom: 130px;
+  filter: grayscale(100%);
+}
+.footer .footer_content ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 155px;
+}
+.footer .footer_copy {
+  width: 80%;
+  background-color: #fff4e7;
+  padding: 39px 410px;
+  margin-bottom: 206px;
+}
+.footer .footer_copy p {
+  font-size: 20px;
+  color: #424242;
+}
 /* =========================================
    3. RESPONSIVE QUERIES
    ========================================= */
